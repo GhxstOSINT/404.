@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "app.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": ["archives/**", "logs/**", "public/**", "rates/**", "secret_vault_713/**", "tmp/**"]
+      }
     }
   ],
   "rewrites": [
@@ -11,10 +14,5 @@
       "source": "/(.*)",
       "destination": "app.py"
     }
-  ],
-  "functions": {
-    "app.py": {
-      "includeFiles": "{archives/**,logs/**,public/**,rates/**,secret_vault_713/**,tmp/**}"
-    }
-  }
+  ]
 }
