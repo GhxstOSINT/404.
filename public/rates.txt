@@ -1,0 +1,4 @@
+=== DAILY GALLEON EXCHANGE ===
+1 Galleon = 17 Sickles
+1 Sickle = 29 Knuts
+==============================

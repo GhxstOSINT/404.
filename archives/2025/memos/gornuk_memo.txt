@@ -1,0 +1,4 @@
+To: All Tellers
+Stop leaving your passwords on sticky notes! 
+- Gornuk
+PS: CTF{n1c3_try_but_wr0ng_f1l3}

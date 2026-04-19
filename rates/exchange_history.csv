@@ -1,0 +1,5 @@
+timestamp,currency_from,currency_to,amount,status
+1672531200,Galleon,Sickle,150,COMPLETED
+1672531450,Knut,Galleon,4500,DENIED_INSUFFICIENT_FUNDS
+1672531890,Galleon,GBP,12,COMPLETED
+1672532100,Sickle,Knut,10,COMPLETED
